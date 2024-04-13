@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* background-color: rgb(199, 209, 209); */
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgb(2,166,143);
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+}
+
+.mynavbar {
+    height: 60px;
+    display: flex;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+/* .nav-link {
+    color: black !important; 
+    justify-content: space-evenly;
+} */
+
+  
+
+#animation {
+    height: 500%;
+    width: 50%;
+    /* background-color: #9290C3; */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.form {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#animation {
+    width: 100%;
+    height: auto;
+}
+
+#animation_login_container {
+    margin-top: 150px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #02A68F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0166B4;
+}
+
+.form-group p {
+    margin-top: 0;
+}
+
+.form-group a {
+    color: #1B1A55;
+    text-decoration: none;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 50px;
+    background-color: #070F2B;
+}
+
+.signup_heading{
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .signup_heading {
+        margin-top: 20px;
+    }
+    /* .divider {
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+    .container {
+        margin-top: 120px;
+    }
+    #animation {
+        margin-bottom: 20px;
+    }
+    /* .login-form {
+        margin-bottom: 20%;
+    } */
+    .footer {
+        margin-top: 300px;
+    }
+}
+
+ /* Slider Css */
+
+
+ .home_slider {
+    z-index: -1;
+ }
+ /* three_container */
+
+ .three_container {
+    /* background-color: aqua; */
+    height: 400px;
+ }
+
+ .three_con {
+    height: 300px;
+    z-index: 1;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .three_con h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .three_con p{
+    font-size: 20px;
+    padding-top: 15px;
+ }
+
+ .con1 {
+    background-color: #02A68F;
+    /* border-radius: 50px; */
+    margin-left: 100px;
+    padding: 0 30px 0 30px;
+ }
+
+ .con2 {
+    background-color: #0166B4;
+    /* border-radius: 20px; */
+    padding: 0 30px 0 30px;
+ }
+
+ .con3 {
+    background-color: #02A68F;
+    /* border-radius: 40px; */
+    margin-right: 100px;
+    padding: 0 30px 0 30px;
+ }
+
+
+ /* benefits of online courses */
+ 
+
+.home_benefit_online {
+    margin-top: 150px;
+}
+
+.home_benefit_online1 {
+    height: 800px;
+    background-image: url("Asserts/images/online_courses.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.home_benefit_online2 {
+    padding-top: 90px;
+    padding-left: 40px;
+    height: 800px;
+}
+
+.home_benefit_online2 h2{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    color: #02A68F;
+}
+
+.home_three_benefits_div {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.iocn_benefits {
+    display: flex;
+    justify-content: center;
+}
+
+.iocn_benefits_icon{
+    padding-left: 30px;
+    align-content: center;
+    padding-top: 40%;
+    color: #02A68F;
+}
+
+.icon_benefits_h3{
+    margin-top: 20px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.icon_benefits_p {
+    margin-right: 40px;
+}
+
+.home_benefit_online2_p {
+    color: #0166B4;
+    box-shadow: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* .home_three_benefits_div:hover {
+    background-color: #0166B4;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 50px; 
+} */
+
+
+@media (max-width: 768px) {
+    .home_benefit_online1 {
+        height: 500px;
+        margin-top: -120px;
+    }
+    .home_benefit_online2 {
+        height: 600px;
+        padding: 50px;
+    }
+    .home_benefit_online2_p{
+        font-size: 10px;
+    }
+    .iocn_benefits_icon{
+        height: 50px;
+        width: 50px;
+        margin-top: -150px;
+        text-align: center;
+    }
+    .home_benefit_online2 h2 {
+        font-size: 25px;
+    }
+    .icon_benefits_h3{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        margin-top: -55px;
+        margin-bottom: 0px;
+    }
+    .icon_benefits_p{
+        font-size: 15px;
+        margin: 20px;
+    }
+}
+ 
+
+/* School Name */
+.school_name {
+    margin-top: 80px;
+}
+
+.school_name h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #0166B4;
+}
+
+.school_name p{
+    padding: 20px 20% 0px 20%;
+    font-size: 20px;
+}
+
+/* testimonial */
+.home_testimonial {
+    margin-bottom: 50px;
+}
+
+
+.home_testimonial_heading{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.home_testimonial_p{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.home_testimonial_heading h3{
+    color: #0166B4;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 768px) {
+    .home_testimonial_heading{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .home_testimonial_heading h3{
+        color: #02A68F;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .testmonial_image_text h5{
+        color: #02A68F;
+        font-size: 1px;
+        /* font-weight: bolder; */
+        font-style: italic;
+    }
+    .testmonial_image_text p{
+        font-size: 1px;
+    }
+}
+
+
+.testmonial_image_text h5{
+    color: #02A68F;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.testmonial_image_text p{
+    font-style: italic;
+}
+
+.home_testimonial_heading p {
+    margin: 20px 20% 20px 20%;
+}
+
+
+/* footer   */
+
+
+footer{
+    background-color: #02A68F;
+    color: white;
+}
+
+.footer_link {
+    color: white;
+}
+
+.footer_link:hover{
+    color: #0166B4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.my_footer {
+    margin-top: 80px;
+}
+
+.my_footer h5{
+    font-size: 20px;
+    font-weight: bolder;
+}

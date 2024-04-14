@@ -472,3 +472,26 @@ footer{
     font-size: 20px;
     font-weight: bolder;
 }
+
+/* about us */
+
+.about_us_content h2{
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+.about_us_content b{
+    color: orangered;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.about_us_content p{
+    font-size: 20px;
+}
